@@ -18,3 +18,10 @@
 
 * Man får lägga max 1 demon på ett factory.
 
+## Portaldemoner
+
+* Man får (istället för att gå) lägga ut en demon på en ruta man står på, en portaldemon. När som helst kan man (istället för att gå), teleportera sig till en portaldemon.
+
+# Portaler
+
+* Man får gå genom en portal som att det vore ett vanligt steg, men man kan inte låsa upp cirklar via portaler.
