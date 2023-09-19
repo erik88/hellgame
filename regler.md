@@ -9,8 +9,9 @@
 
 # Speed tokens
 
-- Om man spenderar en speed token så får man gå ett steg längre den rundan.
-- Man får spendera hur många speed tokens som helst under samma runda.
+- Om man spenderar en speed token så får man gå två steg längre den rundan.
+- Man får spendera en speed token per runda.
+- Man får omvandla 6 speed tokens till Boots of Speed +1.
 
 # Cirklar
 
@@ -28,7 +29,12 @@ Curse-tabellen:
 | ------ | ----------------------------------------------------------------------------------------------------------- |
 | 1 | -1 movement until next upkeep for target player |
 | 1 | Take control of any demon on the square at which you are standing (including demons owned by other players) |
-| 1 | Steal 2 souls from target player |
+| 1 | Steal 1 souls from target player |
+
+# Items
+
+- Pandoras box: at every upkeep, choose: +1 demon / +1 curse token / +3 speed tokens
+- Boots of speed +1
 
 # Specialrutor
 
