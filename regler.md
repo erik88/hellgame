@@ -1,17 +1,50 @@
+# Regler för "hellgame"
+- [Regler för "hellgame"](#regler-för-hellgame)
+- [Start](#start)
+- [Turordning](#turordning)
+- [Upkeep](#upkeep)
+- [Cirklar](#cirklar)
+- [Förflyttning](#förflyttning)
+  - [Speed tokens](#speed-tokens)
+  - [Portaler](#portaler)
+  - [Waylings](#waylings)
+- [Mana / Spells](#mana--spells)
+- [Plocka upp / placera ut demoner](#plocka-upp--placera-ut-demoner)
+- [Specialrutor](#specialrutor)
+  - [Portaler](#portaler-1)
+  - [Källor (gröna)](#källor-gröna)
+  - [Factories](#factories)
+  - [Events](#events)
+  - [Traders](#traders)
+  - [Items](#items)
+- [Appendix A - Events](#appendix-a---events)
+- [Appendix B - Items](#appendix-b---items)
+
+
 # Start
 
+- Bestäm vem som ska ha first player token.
 - Spelaren som ska börja sätter ut sin pjäs först, sedan nästa spelare, etc.
 - Man måste sätta ut sin pjäs i första cirkeln, vid en övergång till andra cirkeln.
 - Resurser
   - 3 demoner
   - 3 själar
-  - Spelaren som börjar får 0 speed tokens, nästa spelare 1, nästa 2, etc.
+  - 1 speed token
 
-# Speed tokens
+# Turordning
 
-- Om man spenderar en speed token så får man gå två steg längre den rundan.
-- Man får spendera en speed token per runda.
-- Man får omvandla 6 speed tokens till Boots of Speed +1.
+1. [Förflyttning](#förflyttning)
+2. Effekt av [specialruta](#specialrutor)
+3. [Spells](#mana--spells)
+4. [Plocka upp / placera ut demoner](#plocka-upp--placera-ut-demoner)
+
+# Upkeep
+
+ - När alla spelare har tagit varsin tur så flyttas upkeep token ett steg.
+ - Efter 6 varv är det upkeep:
+   - First player token flyttas medsols
+   - Alla gröna cirklar vänds upprätt
+   - Alla spelare får resurser från sina factories.
 
 # Cirklar
 
@@ -20,27 +53,46 @@
 - Cirkeln låses upp när spelaren går in i den - då är spelaren movement slut för den rundan (även om hen hade movement kvar eller speed tokens)
 - När en cirkel väl är upplåst så har man alltid tillgång till den.
 
-# Curses
+# Förflyttning
 
-Man får använda 1 curse per runda, _efter_ movement.
+Spelare får gå 0, 1, eller 2 steg per tur.
 
-Curse-tabellen:
-| Tokens | Effect |
+## Speed tokens
+
+ * En gång per tur får man förbruka en **speed token**. Då går man upp till två steg extra.
+ * Varje **permanent speed token** ger möjligheten att gå ett steg extra varje tur.
+
+## Portaler
+
+- Spelare kan flytta sig mellan portaler. Det kostar ett steg.
+- Man kan bara gå till portaler som ligger i cirklar som man har låst upp.
+
+## Waylings
+
+Spelare kan flytta sig till sina egna utlagda demoner (som inte ligger på factories). Det kostar ett steg.
+
+# Mana / Spells
+
+Man får använda 1 spell per runda.
+
+Spell-tabellen:
+| Kostnad | Effect |
 | ------ | ----------------------------------------------------------------------------------------------------------- |
-| 1 | -1 movement until next upkeep for target player |
-| 1 | Take control of any demon on the square at which you are standing (including demons owned by other players) |
-| 1 | Steal 1 souls from target player |
+| 1 | Flytta upkeep countern ett steg framåt eller bakåt |
+| 1 | Ta kontroll över en demon på rutan där du står |
+| 1 | Steal 1 soul från en annan spelare |
+| 1 | Stjäl 1 speed token från en annan spelare |
 
-# Items
+# Plocka upp / placera ut demoner
 
-- Pandoras box: at every upkeep, choose: +1 demon / +1 curse token / +3 speed tokens
-- Boots of speed +1
+- Man får lägga ut demoner på rutan där man står, förutsatt att det är en vanlig ruta eller ett factory.
+- Man får betala X souls för att plocka upp X av sina egna demoner på rutan där man står.
 
 # Specialrutor
 
 ## Portaler
 
-- Man får gå genom en portal som att det vore _ett_ vanligt steg, men man kan inte låsa upp cirklar via portaler.
+Se [portaler](#portaler)
 
 ## Källor (gröna)
 
@@ -50,10 +102,46 @@ Curse-tabellen:
 
 ## Factories
 
-- En spelare får lägga max 1 demon på ett factory, och får då dess bonus vid varje upkeep.
-- Om en spelare kommer till ett factory med _en annan spelares demon_ så kan hen "ta över" factoriet genom att placera ut två demoner där.
-  Detta zombifierar den existerande demonen (i praktiken dödar), och göra att spelaren med två demoner låser upp mer produktion från factoriet.
+- Ett factory kan ha max 2 demoner.
+- En spelare som har demoner på ett factory får dess bonus vid varje upkeep.
+- Om två demoner från samma spelare ligger på ett factory vänds det upp-och-ned, och ger en utökad effekt (när factoryt inte längre har två demoner från samma spelare vänds det tillbaks igen).
 
-# Portaldemoner / Waylings
+## Events
 
-- Man får lägga ut en demon på en vanlig ruta (ej specialruta) man står på, landar på, eller passerar genom. När som helst kan man använda _ett_ steg för att teleportera sig till en portaldemon.
+Händer en gång, sedan försvinner brickan.
+
+## Traders
+
+En gång per tur
+
+## Items
+
+Först till kvarn får brickan.
+
+# Appendix A - Events
+
+- **Hinderance**
+  - Det går inte att stå på, eller passera, rutor som har en blockad.
+  - Det måste alltid gå att komma åt alla (oblockerade) rutor på något sätt.
+  - Placera två blockader på vanliga rutor (vilka som helst).
+- **Clear circle**
+  - Välj en cirkel. Alla demoner i den cirkeln (factories, waylings) tas tillbaks av respektive ägare.
+- **Eclipse**
+  - Placera eclipse-markören vid upkeep-räknaren.
+  - Ta bort eclipse-markören när upkeep-räknaren kommer till eclipse-markören.
+  - Inga portaler eller waylings får användas så länge som eclipse-markören finns.
+- **Place portal**
+  - Placera ut portalmarkören på valfri vanlig ruta (i en cirkel du låst upp).
+  - Portalmarkören beter sig som en vanlig portal.
+- **Steal 2 souls**
+  - Varje spelare ger dig två själar (om de har två. Annars så många som de har)
+
+# Appendix B - Items
+
+- **Pandoras box**
+  - Varje upkeep, välj: +1 demon / +1 curse token
+- **Flux**
+  - Om flux är upprätt kan du vända på flux och gå till vilken portal som helst (det kostar ett steg).
+  - Flux vänds upprätt på varje upkeep.
+- **Boots of speed +1**
+  - Ger permanent +1 speed
