@@ -1,5 +1,6 @@
 # Regler för "hellgame"
 - [Regler för "hellgame"](#regler-för-hellgame)
+- [Innan start](#innan-start)
 - [Start](#start)
 - [Turordning](#turordning)
 - [Upkeep](#upkeep)
@@ -17,19 +18,22 @@
   - [Events](#events)
   - [Traders](#traders)
   - [Items](#items)
-- [Appendix A - Events](#appendix-a---events)
-- [Appendix B - Items](#appendix-b---items)
+- [Appendix A - Items](#appendix-a---items)
 
+# Innan start
+
+- Resurser som alla spelare ska ha
+  - 3 demoner
+  - 3 själar
+  - 1 speed token
+- Välj ut 3 spells och 4 events som ska användas den här omgången.
+- Placera ut alla specialbrickor (slumpa). Notera vilka events som ska vara med.
 
 # Start
 
 - Bestäm vem som ska ha first player token.
 - Spelaren som ska börja sätter ut sin pjäs först, sedan nästa spelare, etc.
 - Man måste sätta ut sin pjäs i första cirkeln, vid en övergång till andra cirkeln.
-- Resurser
-  - 3 demoner
-  - 3 själar
-  - 1 speed token
 
 # Turordning
 
@@ -59,7 +63,8 @@ Spelare får gå 0, 1, eller 2 steg per tur.
 
 ## Speed tokens
 
- * En gång per tur får man förbruka en **speed token**. Då går man upp till två steg extra.
+ * En gång per tur får man förbruka en **speed token**. Då går man upp till **två steg** extra.
+ * Man får även förbruka **sju speed tokens** för att få en **permanent speed token**.
  * Varje **permanent speed token** ger möjligheten att gå ett steg extra varje tur.
 
 ## Portaler
@@ -74,14 +79,6 @@ Spelare kan flytta sig till sina egna utlagda demoner (som inte ligger på facto
 # Mana / Spells
 
 Man får använda 1 spell per runda.
-
-Spell-tabellen:
-| Kostnad | Effect |
-| ------ | ----------------------------------------------------------------------------------------------------------- |
-| 1 | Flytta upkeep countern ett steg framåt eller bakåt |
-| 1 | Ta kontroll över en demon på rutan där du står |
-| 1 | Steal 1 soul från en annan spelare |
-| 1 | Stjäl 1 speed token från en annan spelare |
 
 # Plocka upp / placera ut demoner
 
@@ -118,25 +115,7 @@ En gång per tur
 
 Först till kvarn får brickan.
 
-# Appendix A - Events
-
-- **Hinderance**
-  - Det går inte att stå på, eller passera, rutor som har en blockad.
-  - Det måste alltid gå att komma åt alla (oblockerade) rutor på något sätt.
-  - Placera två blockader på vanliga rutor (vilka som helst).
-- **Clear circle**
-  - Välj en cirkel. Alla demoner i den cirkeln (factories, waylings) tas tillbaks av respektive ägare.
-- **Eclipse**
-  - Placera eclipse-markören vid upkeep-räknaren.
-  - Ta bort eclipse-markören när upkeep-räknaren kommer till eclipse-markören.
-  - Inga portaler eller waylings får användas så länge som eclipse-markören finns.
-- **Place portal**
-  - Placera ut portalmarkören på valfri vanlig ruta (i en cirkel du låst upp).
-  - Portalmarkören beter sig som en vanlig portal.
-- **Steal 2 souls**
-  - Varje spelare ger dig två själar (om de har två. Annars så många som de har)
-
-# Appendix B - Items
+# Appendix A - Items
 
 - **Pandoras box**
   - Varje upkeep, välj: +1 demon / +1 curse token
