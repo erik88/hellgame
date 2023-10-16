@@ -1,9 +1,11 @@
 # Regler för "hellgame"
+
 - [Regler för "hellgame"](#regler-för-hellgame)
 - [Innan start](#innan-start)
 - [Start](#start)
 - [Turordning](#turordning)
 - [Upkeep](#upkeep)
+  - [Precisa regler för upkeep](#precisa-regler-för-upkeep)
 - [Cirklar](#cirklar)
 - [Förflyttning](#förflyttning)
   - [Speed tokens](#speed-tokens)
@@ -11,6 +13,9 @@
   - [Waylings](#waylings)
 - [Mana / Spells](#mana--spells)
 - [Plocka upp / placera ut demoner](#plocka-upp--placera-ut-demoner)
+  - [Turordning](#turordning-1)
+  - [Plocka upp / placera](#plocka-upp--placera)
+  - [Fight](#fight)
 - [Specialrutor](#specialrutor)
   - [Portaler](#portaler-1)
   - [Källor (gröna)](#källor-gröna)
@@ -18,6 +23,7 @@
   - [Events](#events)
   - [Traders](#traders)
   - [Items](#items)
+- [Hinderance](#hinderance)
 - [Appendix A - Items](#appendix-a---items)
 
 # Innan start
@@ -44,11 +50,20 @@
 
 # Upkeep
 
- - När alla spelare har tagit varsin tur så flyttas upkeep token ett steg.
- - Efter 6 varv är det upkeep:
-   - First player token flyttas medsols
-   - Alla gröna cirklar vänds upprätt
-   - Alla spelare får resurser från sina factories.
+- När alla spelare har tagit varsin tur så flyttas upkeep-token ett steg.
+- Efter 6 varv (se [Precisa regler för upkeep](#precisa-regler-för-upkeep)) är det upkeep:
+  - First player token flyttas medsols
+  - Alla gröna cirklar vänds upprätt
+  - Alla spelare får resurser från sina factories.
+  - Alla spelare får 1 mana.
+  - Upkeep token flyttas tillbaka till första steget.
+
+## Precisa regler för upkeep
+ - Längden på upkeep är initialt 6 varv, men kan komma att ändras under spelets gång.
+ - Upkeep sker när upkeep-token flyttas pga. att spelarna har passerat ett helt varv.
+ - Upkeep sker inte när upkeep-token flyttas av andra anledningar.
+ - Upkeep sker inte när längden på upkeep ändras.
+ - Upkeep-token kan inte flyttas tidigare än första steget.
 
 # Cirklar
 
@@ -63,9 +78,9 @@ Spelare får gå 0, 1, eller 2 steg per tur.
 
 ## Speed tokens
 
- * En gång per tur får man förbruka en **speed token**. Då går man upp till **två steg** extra.
- * Man får även förbruka **sju speed tokens** för att få en **permanent speed token**.
- * Varje **permanent speed token** ger möjligheten att gå ett steg extra varje tur.
+- En gång per tur får man förbruka en **speed token**. Då går man upp till **två steg** extra.
+- Man får även förbruka **sju speed tokens** för att få en **permanent speed token**.
+- Varje **permanent speed token** ger möjligheten att gå ett steg extra varje tur.
 
 ## Portaler
 
@@ -82,8 +97,27 @@ Man får använda 1 spell per runda.
 
 # Plocka upp / placera ut demoner
 
-- Man får lägga ut demoner på rutan där man står, förutsatt att det är en vanlig ruta eller ett factory.
-- Man får betala X souls för att plocka upp X av sina egna demoner på rutan där man står.
+## Turordning
+
+1. Plocka upp / placera ut
+2. Fight
+
+## Plocka upp / placera
+
+Följande rutor kan ha demoner:
+
+   | Typ         | Platser |
+   | ----------- | ------- |
+   | Vanlig ruta | 1       |
+   | Factory     | 2       |
+
+ - Man får lägga ut valfritt antal demoner på rutan där man står (det är ok att lägga mer än "det finns plats för").
+ - Man får betala X souls för att plocka upp X av sina egna demoner på rutan där man står.
+
+## Fight
+
+1. Om någon spelare har flest demoner på rutan: Döda alla demoner som tillhör andra spelare.
+2. Döda de sist ditlagda demonerna, tills rutan har lika många demoner som antal platser.
 
 # Specialrutor
 
@@ -99,9 +133,8 @@ Se [portaler](#portaler)
 
 ## Factories
 
-- Ett factory kan ha max 2 demoner.
 - En spelare som har demoner på ett factory får dess bonus vid varje upkeep.
-- Om två demoner från samma spelare ligger på ett factory vänds det upp-och-ned, och ger en utökad effekt (när factoryt inte längre har två demoner från samma spelare vänds det tillbaks igen).
+- Om två demoner från samma spelare ligger på ett factory vänds det upp-och-ned, och ger en utökad effekt (när factory:t inte längre har två demoner från samma spelare vänds det tillbaks igen).
 
 ## Events
 
@@ -114,6 +147,13 @@ En gång per tur
 ## Items
 
 Först till kvarn får brickan.
+
+# Hinderance
+
+- Får bara läggas på en vanlig ruta - den rutan och alla dess kopplingar är nu borttagna ur spelet.
+- *Får inte läggas så att spelplanen delas i flera delar*. Dvs. det måste alltid finnas minst en väg från varje spelare till alla kvarvarande rutor.
+- Får inte läggas på rutor där det finns demoner eller andra spelare.
+- Om man kastar en hinderance på rutan där man själv står, så flyttar man sig som vanligt iväg från den rutan nästa gång.
 
 # Appendix A - Items
 
